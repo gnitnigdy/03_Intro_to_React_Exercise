@@ -19,7 +19,13 @@ function Hero() {
           website
         </p>
         <button id="showMore" className="btn btn-lg btn-primary mt-5 px-5">
-          Show More
+          <a
+            style={{ color: "black" }}
+            href="#aboutSection"
+            className="text-no-style"
+          >
+            Show More
+          </a>
         </button>
       </div>
     </section>
